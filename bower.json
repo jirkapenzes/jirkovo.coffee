@@ -1,0 +1,16 @@
+{
+  "name": "jirkovo coffee",
+  "description": "káva, kavárny a život v nich",
+  "homepage": "https://github.com/jirkapenzes/jirkovo.coffee",
+  "authors": [
+    "jirkapenzes <jirkapenzes@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "resources/public/bower_components"
+  ],
+  "dependencies": {
+    "pure": "~0.6.0"
+  }
+}
