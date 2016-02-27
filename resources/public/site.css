@@ -1,3 +1,6 @@
+html {
+
+}
 body {
     border-top: 2px solid #DA753F;
 }
@@ -5,7 +8,6 @@ body {
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
     font-family: "Quando", Libre, Georgia, Times, serif;
-    color: #333333;
 }
 
 .l-box {
@@ -20,9 +22,18 @@ html, button, input, select, textarea,
 
 .content-wrapper {
     max-width: 670px;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
     padding: 10px;
+}
+
+a {
+    color: #DA753F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #header {
@@ -81,7 +92,7 @@ img {
 .post h2 {
     text-decoration: none;
     font-size: 29pt;
-    color: #333;
+    color: #777;
     margin-bottom: 8px;
     font-weight: 700;
     line-height: 1;
@@ -89,8 +100,13 @@ img {
 
 .post h2 a {
     text-decoration: none;
-    color: #333;
+    color: #777;
 }
+
+.post h2 a:hover {
+    color: #777;
+}
+
 
 .post .info {
     font-size: 11pt;
@@ -100,7 +116,8 @@ img {
 
 .post p {
     line-height: 25pt;
-    color: #333;
+    color: #838383;
+    color: #3a3b39;
 }
 
 hr {
@@ -113,15 +130,6 @@ hr {
 
 .posts-list h2 {
     margin-top: 70px;
-}
-
-a {
-    color: #DA753F;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .fb-like {
@@ -144,4 +152,3 @@ a:hover {
     font-size: 10pt;
     color: #b3b3b1;
 }
-
