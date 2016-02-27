@@ -4,6 +4,7 @@
             [compojure.route :as route]
             [environ.core :refer [env]]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
+            [clj-rss.core :as rss]
             [jirkovocoffee.layout :as layout]
             [jirkovocoffee.view :as view]
             [jirkovocoffee.post :as post]))
@@ -27,11 +28,19 @@
        (view/home-page)
        (layout/render config)))
 
+(defn rss []
+  (rss/channel-xml {:title (:title config) :link (:url config) :description (:subtitle config)}
+                   (map #(hash-map :title (:title %)
+                                   :link (:absolute-url %)
+                                   :description (:body %)) (post/find-all))))
+
 (defroutes app-routes
            (GET "/" [] (load-default-page))
            (GET "/post/:post-name" [post-name] (load-post-page post-name))
-           (route/resources "/" {:root "posts"})
+           (GET "/rss" [] (rss))
            (route/resources "/" {:root "public"})
+           (route/resources "/images" {:root "posts/images"})
+           (route/resources "/post/images" {:root "posts/images"})
            (route/not-found " Not Found"))
 
 (def app
