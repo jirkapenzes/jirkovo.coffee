@@ -32,6 +32,8 @@
    "&nbsp;&nbsp;|&nbsp;&nbsp;"
    [:a {:href "/archiv"} "Archív"]
    "&nbsp;&nbsp;|&nbsp;&nbsp;"
+   [:a {:href "/rss"} "RSS"]
+   "&nbsp;&nbsp;|&nbsp;&nbsp;"
    "(c) 2016 " [:a {:href (:author-web env)} (:author env)]])
 
 (defn- body [env & content]

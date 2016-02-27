@@ -5,12 +5,13 @@
             [clojure.string :as str]
             [jirkovocoffee.parser :as parser]))
 
+(def excluded #{".Ulysses-Group.plist" "images" ".DS_Store"})
 (def posts-directory (io/file "resources/posts/"))
-(def posts-files (filter #(not (or (.isDirectory %) (= (.getName %) ".DS_Store" "images")))
-                         (.listFiles posts-directory)))
+(def posts-files (filter #(not (or (.isDirectory %)
+                                   (contains? excluded (.getName %))))
+                         (seq (.listFiles posts-directory))))
 
-(file-seq posts-directory)
-(map #(.getName %) (.listFiles posts-directory))
+(defn !nil? [value] (not (nil? value)))
 
 (defn- find-file [file-name]
   (first (filter #(= (.getName %) file-name) posts-files)))
@@ -40,19 +41,21 @@
   (update-in post [:absolute-url] (fn [_] (str "http://jirkovocoffee.cz/post/" (str/replace file-name ".md" "")))))
 
 (defn- load-post [file]
-  (->> (slurp file)
-       (parser/parse)
-       (convert-date)
-       (split-tags)
-       (add-author)
-       (add-file-name (.getName file))
-       (add-relative-url (.getName file))
-       (add-absolute-url (.getName file))
-       (published->bool)
-       (body->html)))
+  (try
+    (->> (slurp file)
+         (parser/parse)
+         (convert-date)
+         (split-tags)
+         (add-author)
+         (add-file-name (.getName file))
+         (add-relative-url (.getName file))
+         (add-absolute-url (.getName file))
+         (published->bool)
+         (body->html))
+    (catch Exception e nil)))
 
 (defn find-all []
-  (map load-post posts-files))
+  (filter !nil? (map load-post posts-files)))
 
 (defn find-by-tag [tag]
   (->> (find-all)
