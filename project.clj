@@ -9,6 +9,7 @@
                  [clj-time "0.11.0"]
                  [environ "1.0.2"]
                  [ring/ring-defaults "0.1.5"]
+                 [markdown-clj "0.9.66"]
                  [clj-rss "0.2.3"]]
   :main jirkovocoffee.handler
   :plugins [[lein-ring "0.9.7"]
