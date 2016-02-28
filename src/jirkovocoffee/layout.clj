@@ -22,8 +22,8 @@
 (defn- render-header [env]
   [:div {:id "header"}
    [:a {:href "/"}
-    [:h1 (:title env)]]
-   [:p (:subtitle env)]
+    [:h1 (:title env)]
+    [:p (:subtitle env)]]
    [:div {:class "header-line"}]])
 
 (defn- render-footer [env]
