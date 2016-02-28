@@ -10,6 +10,7 @@
                  [environ "1.0.2"]
                  [ring/ring-defaults "0.1.5"]
                  [clj-rss "0.2.3"]]
+  :main jirkovocoffee.handler
   :plugins [[lein-ring "0.9.7"]
             [lein-environ "1.0.2"]]
   :ring {:handler jirkovocoffee.handler/app}
