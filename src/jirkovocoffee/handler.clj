@@ -1,4 +1,5 @@
 (ns jirkovocoffee.handler
+  (:gen-class :main true)
   (:require [org.httpkit.server :refer [run-server]]
             [compojure.core :refer :all]
             [compojure.route :as route]
