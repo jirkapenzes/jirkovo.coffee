@@ -1,5 +1,5 @@
 (defproject jirkovocoffee "0.1.0-SNAPSHOT"
-  :description "jirkovo coffee | Káva, kavárny a život v nich.
+  :description "jirkovo coffee | Káva, kavárny a život v nich."
   :url "http://jirkovocoffee.cz"
   :min-lein-version "2.0.0"
   :dependencies [[org.clojure/clojure "1.7.0"]
