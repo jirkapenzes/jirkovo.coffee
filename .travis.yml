@@ -2,11 +2,18 @@ language: clojure
 lein: lein
 sudo: required
 
+install:
+ - sudo apt-get install npm -qq
+
 services:
   - docker
 
 script:
+  - npm install -g bower
+  - bower install
   - lein do clean, deps, uberjar
+
+after_success:
   - docker build -t jirkapenzes/jirkovocoffee .
   - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
   - docker push jirkapenzes/jirkovocoffee
