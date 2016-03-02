@@ -24,6 +24,7 @@ html, button, input, select, textarea,
 .content-wrapper {
     max-width: 670px;
     margin-left: 12%;
+    margin-left: auto;
     margin-right: auto;
     padding: 10px;
 }
