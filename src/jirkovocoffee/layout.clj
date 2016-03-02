@@ -24,7 +24,10 @@
    [:a {:href "/"}
     [:h1 (:title env)]
     [:p (:subtitle env)]]
-   [:div {:class "header-line"}]])
+   [:div {:class "header-line"}]
+   [:ul
+    [:li [:a {:href "/"} "#home"]]
+    [:li [:a {:href "/gallery"} "#gallery"]]]])
 
 (defn- render-footer [env]
   [:div {:id "footer"}
