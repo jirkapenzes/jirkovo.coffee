@@ -10,7 +10,8 @@
                  [environ "1.0.2"]
                  [ring/ring-defaults "0.1.5"]
                  [markdown-clj "0.9.66"]
-                 [clj-rss "0.2.3"]]
+                 [clj-rss "0.2.3"]
+                 [instagram-api "0.2.0"]]
   :main jirkovocoffee.handler
   :plugins [[lein-ring "0.9.7"]
             [lein-environ "1.0.2"]]

@@ -11,6 +11,7 @@
     "resources/public/bower_components"
   ],
   "dependencies": {
-    "pure": "~0.6.0"
+    "pure": "~0.6.0",
+    "instafeed.js": "~1.4.1"
   }
 }

@@ -8,7 +8,7 @@ body {
 
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"] {
-    font-family: "Quando", Libre, Georgia, Times, serif;
+    font-family:  "Quando", Libre, Georgia, serif;
 }
 
 .l-box {
@@ -22,7 +22,7 @@ html, button, input, select, textarea,
 }
 
 .content-wrapper {
-    max-width: 670px;
+    max-width: 680px;
     margin-left: 12%;
     margin-left: auto;
     margin-right: auto;
@@ -131,7 +131,6 @@ img {
     font-size: 29pt;
     color: #291924;
     margin-bottom: 8px;
-    font-weight: 700;
     line-height: 48px;
 
     padding-top: 5px;
@@ -160,11 +159,12 @@ img {
     font-size: 11pt;
     color: rgba(0, 0, 0, 0.44);
     margin-bottom: 40px;
+    color: #5A5A5A;
 }
 
 .post p {
     line-height: 25pt;
-    color: #3a3b39;
+    color: #5A5A5A;
 }
 
 hr {
@@ -186,6 +186,11 @@ hr {
 .social-share {
     font-size: 1px;
     margin-top: 15px;
+}
+
+img.instagram {
+    padding: 2px;
+    width: 220px;
 }
 
 #disqus_thread {
