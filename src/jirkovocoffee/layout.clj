@@ -7,11 +7,11 @@
   [:head
    [:title (:page-title env)]
    [:meta {:name "viewport" :content "width=device-width, initial-scale=1"}]
-   (include-css "https://fonts.googleapis.com/css?family=Amatic+SC"
-                "https://fonts.googleapis.com/css?family=Quando"
-                "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
-                "https://fonts.googleapis.com/css?family=PT+Sans"
-                "https://fonts.googleapis.com/css?family=Dosis"
+   (include-css "https://fonts.googleapis.com/css?family=Amatic+SC&subset=latin,latin-ext"
+                "https://fonts.googleapis.com/css?family=Quando&subset=latin,latin-ext"
+                "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700&subset=latin,latin-ext"
+                "https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext"
+                "https://fonts.googleapis.com/css?family=Dosis&subset=latin,latin-ext"
                 "../bower_components/pure/pure-min.css"
                 "../bower_components/pure/grids-responsive-min.css"
                 "../site.css")
