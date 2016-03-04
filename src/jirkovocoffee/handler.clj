@@ -29,6 +29,10 @@
        (view/home-page)
        (layout/render config)))
 
+(defn load-gallery-page []
+  (->> (view/gallery-page (list))
+       (layout/render config)))
+
 (defn rss []
   (rss/channel-xml {:title (:title config) :link (:url config) :description (:subtitle config)}
                    (map #(hash-map :title (:title %)
@@ -37,6 +41,7 @@
 
 (defroutes app-routes
            (GET "/" [] (load-default-page))
+           (GET "/gallery" [] (load-gallery-page))
            (GET "/post/:post-name" [post-name] (load-post-page post-name))
            (GET "/rss" [] (rss))
            (route/resources "/" {:root "public"})

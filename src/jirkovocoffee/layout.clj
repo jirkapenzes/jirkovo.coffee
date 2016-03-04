@@ -11,13 +11,16 @@
                 "https://fonts.googleapis.com/css?family=Quando"
                 "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700"
                 "https://fonts.googleapis.com/css?family=PT+Sans"
+                "https://fonts.googleapis.com/css?family=Dosis"
                 "../bower_components/pure/pure-min.css"
                 "../bower_components/pure/grids-responsive-min.css"
                 "../site.css")
 
    (include-js "../js/twitter-share-button.js"
                "../js/facebook-share-button.js"
-               "../js/disqus.js")])
+               "../js/disqus.js"
+               "../bower_components/instafeed.js/instafeed.min.js"
+               "../js/gallery.js")])
 
 (defn- render-header [env]
   [:div {:id "header"}

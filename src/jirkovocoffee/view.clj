@@ -71,3 +71,9 @@
 
 (defn post-page [post]
   (full-post post))
+
+(defn gallery-page [images]
+  [:div
+   [:h2
+    [:a {:href "https://www.instagram.com/explore/tags/jirkovocoffee/"} "#jirkovocoffee"] " on instagram"]
+   [:div {:id "instafeed"}]])
