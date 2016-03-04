@@ -75,5 +75,5 @@
 (defn gallery-page [images]
   [:div
    [:h2
-    [:a {:href "https://www.instagram.com/explore/tags/jirkovocoffee/"} "#jirkovocoffee"] " on instagram"]
+    [:a {:href "https://www.instagram.com/explore/tags/jirkovocoffee/"} "#jirkovocoffee"] " na instagramu"]
    [:div {:id "instafeed"}]])
