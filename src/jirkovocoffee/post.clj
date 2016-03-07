@@ -17,7 +17,7 @@
   (first (filter #(= (.getName %) file-name) posts-files)))
 
 (defn- convert-date [post]
-  (update-in post [:publish-date] #(time/parse (time/formatter "dd.MM.yyyy") %)))
+  (update-in post [:publish-date] #(time/parse (time/formatter "dd. MM. yyyy") %)))
 
 (defn- add-author [post]
   (update-in post [:author] (fn [_] "Jirka Pénzeš")))
@@ -52,7 +52,7 @@
          (add-absolute-url (.getName file))
          (published->bool)
          (body->html))
-    (catch Exception e nil)))
+    (catch Exception e (println e) nil)))
 
 (defn find-all []
   (filter !nil? (map load-post posts-files)))
