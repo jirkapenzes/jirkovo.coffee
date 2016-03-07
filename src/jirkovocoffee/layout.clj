@@ -19,6 +19,7 @@
    (include-js "../js/twitter-share-button.js"
                "../js/facebook-share-button.js"
                "../js/disqus.js"
+               "../js/analytics.js"
                "../bower_components/instafeed.js/instafeed.min.js"
                "../js/gallery.js")])
 
