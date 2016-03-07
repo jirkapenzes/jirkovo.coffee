@@ -47,7 +47,7 @@
 (defn short-post [post]
   [:div
    (render-post post)
-   (link (:relative-url post) "Pokračovat ve čtení článku")
+   (link (:relative-url post) "Zobrazit komentáře k článku")
    (social-networks post)])
 
 (defn full-post [post]
