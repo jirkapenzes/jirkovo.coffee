@@ -26,6 +26,8 @@
 
 (defn load-default-page []
   (->> (post/find-all)
+       (sort-by :publish-date)
+       (reverse)
        (view/home-page)
        (layout/render config)))
 
