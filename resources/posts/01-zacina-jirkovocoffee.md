@@ -10,4 +10,4 @@ Nedávno jsem se upsal do projektu 100 dní tvorby. V podstatě se jednalo o tak
 
 Tak jsem přišel s myšlenkou tohoto webu. Navázat. Začít kavárny ještě více poznávat, psát o nich recenze, dávat tipy a obecně nasdílet své postřehy, jak vlastně z kavárny třeba pracovat a proč. Vše velmi subjektivně mojí metrikou. Nápadů je spousta. Začíná jirkovo.coffee, mé okno do kávového světa. 
 
-![](http://res.cloudinary.com/jirkapenzes/image/upload/v1457712502/01-coffee-anytime_w9hegi.jpg)
+![](http://res.cloudinary.com/jirkapenzes/image/upload/v1457712942/jirkovocoffee.cz/01-coffee-anytime.jpg)
