@@ -10,11 +10,11 @@ Proč chodit pracovat do kaváren? Můžete mít hezkou kancelář nebo můžete
 
 Naší produktivitu zásadně ovlivňuje prostředí, ve kterém pracujeme. Novou dávku energie lze získat právě změnou prostředí ve kterém pracujeme. Změna prostředí vždy prospívá. 
 
-V okamžiku, kdy na vás jde kupříkladu únava nebo řešíte palčivý problém a točíte se stále v kruhu, pak je ideální čas na změnu. Z počátku můžete měnit místo po kanceláři nebo doma. Přesunout od stolu do fatboey nebo zkusit třeba standup desk. Dalším krokem je právě změna celého prostředí, úplně se přesunout. Říká se, že nejlepší nápady dostanete cestou na záchod. Něco na tom skutečně bude. Změna prostředí prospívá. 
+V okamžiku, kdy na vás jde kupříkladu únava nebo řešíte palčivý problém a točíte se stále v kruhu, pak je ideální čas na změnu. Z počátku můžete měnit místo v kanceláři nebo doma. Přesunout se od stolu do fatboey nebo zkusit třeba standup desk. Dalším krokem je právě změna celého prostředí, úplně se přesunout. Říká se, že nejlepší nápady dostanete cestou na záchod. Něco na tom skutečně bude. Změna prostředí prospívá. 
 
 ![](http://res.cloudinary.com/jirkapenzes/image/upload/v1457714185/jirkovocoffee.cz/02-office.jpg)
 
-Během přesunu z kanceláře do kavárny vyčistíte hlavu, nasajete novou energii a mnohdy i právě vyřešíte problém, na kterém aktuálně pracujete. Cesta je svěží, zdravá a probere vás. Prostě se to vyplatí! :) 
+Během přesunu z kanceláře do kavárny si vyčistíte hlavu, nasajete novou energii a mnohdy i právě vyřešíte problém, na kterém aktuálně pracujete. Cesta je svěží, zdravá a probere vás. Prostě se to vyplatí! :) 
 
 ### Inspirace
 
