@@ -60,7 +60,7 @@ Nejvíc nejlepší. Této kavárně věnuji ještě samostatný článek, proto�
 
 ### 8. [Tamp & Pull](http://tamppull.hu/)
 
-Kavárna v office parku. Tak nějak to na mě na první pohled působilo. Přes ulici od Espresso Embassy. Trošku chladnější prostředí, které působí jako klasická obyčejná kavárna s nedobrým kafem. Sortiment ale mluví o opaku. Káva byla výborná. Široká nabídka různých tipů kávy a čajů. Nechybí ani káva na filtr připravena alternativním způsobem. Za barem byla příjemná baristka, která má naučila několik Maďarských frází, které už jsem bohužel zapomněl.
+Kavárna v office parku. Tak nějak to na mě na první pohled působilo. Přes ulici od Espresso Embassy. Trošku chladnější prostředí, které působí jako klasická obyčejná kavárna s nedobrým kafem. Sortiment ale mluví o opaku. Káva byla výborná. Široká nabídka různých tipů kávy a čajů. Nechybí ani káva na filtr připravena alternativním způsobem. Za barem byla příjemná baristka, která mě naučila několik Maďarských frází, které jsem v zápětí zapomněl.
 
 ![](https://scontent-vie1-1.cdninstagram.com/t51.2885-15/e35/13183319_497813270408790_129179540_n.jpg)
 
