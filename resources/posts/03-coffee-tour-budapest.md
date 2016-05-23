@@ -52,7 +52,7 @@ Taková schovaná kavárnička v jedné z bočních uliček, kam normálně asi 
 
 ![](https://scontent-vie1-1.cdninstagram.com/t51.2885-15/e35/13166960_556711914511873_1911545591_n.jpg)
 
-### 7. [This is Melbourne](http://mylittlemelbourne.hu/#mylittlemelbourne)
+### 7. [This is Melbourne](http://mylittlemelbourne.hu/)
 
 Nejvíc nejlepší. Této kavárně věnuji ještě samostatný článek, protože si to zkrátka zaslouží. V mých očích to je prozatím nejlepší kavárna v celém Budapešti. Zkrátka to umí. Skvělá káva, skvělý barista, skvělé prostředí, skvělý sortiment, … no prostě skvělá kavárna. Tam zkrátka musíte jít.
 
