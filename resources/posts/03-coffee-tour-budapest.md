@@ -36,7 +36,7 @@ Pecka! Co se stane, když vám v kavárně vyroste knihovna? Nebo naopak když v
 
 ### 4. [Kontakt](http://kontaktcoffee.com/)
 
-Super útulná mini kavárna ve vnitro bloku a jen pár kroků od hlavní třídy. Naprosto skvělý barista, který prohodil i několik vtipků a bylo vidět, že jeho práce ho neuvěřitelně baví a snaží se vytvořit co nejlepší kávu. A ano, káva zde byla výborná! Zároveň úžasné prostředí pro práci. Doporučuji! Právě tady začla má coffee tour! :)
+Super útulná mini kavárna ve vnitro bloku a jen pár kroků od hlavní třídy. Naprosto skvělý barista, který prohodil i několik vtipků a bylo vidět, že jeho práce ho neuvěřitelně baví a snaží se vytvořit co nejlepší kávu. Bere to vážně. Tak by to mělo vypadat všude. A ano, káva zde byla výborná! Zároveň úžasné prostředí pro práci. Doporučuji! Právě tady začla má coffee tour! :)
 
 ![](https://scontent-vie1-1.cdninstagram.com/t51.2885-15/e35/13129616_661933473944588_516348149_n.jpg)
 
