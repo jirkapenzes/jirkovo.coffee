@@ -16,4 +16,5 @@ pom.xml.asc
 *.iml
 
 resources/public/bower_components/
-resources/posts/.Ulysses-Group.plist 
+resources/posts/.Ulysses-Group.plist
+resources/posts/.Ulysses-favorites.plist
