@@ -24,7 +24,7 @@ Vyhlášená kavárna. Často se o ni píše, je hodně doporučovaná a kvalit�
 
 ### 2. [Fekete](http://feketekv.hu/)
 
-Představte si velikou kuchyni, ve které je kavárna. Takhle nějak by se dalo v kostce popsat toto místo. Nachází se vnitro bloku, takže při pěkném počasí je možnost popíjet kávu na zahrádce. Na můj vkus trošku chladnější interiér, ale lehce to kompenzovalo zvolené osvětlení. Káva nebyla špatná, ale nepatřila k nejlepším. Na dlouhé vysedávání zde úplně nemysleli, protože místní židličky nebyli úplně nejlepší.
+Představte si velikou kuchyni, ve které je kavárna. Takhle nějak by se dalo v kostce popsat toto místo. Nachází se ve vnitro bloku, takže při pěkném počasí je možnost popíjet kávu na zahrádce. Na můj vkus trošku chladnější interiér, ale lehce to kompenzovalo zvolené osvětlení. Káva nebyla špatná, ale nepatřila k nejlepším. Na dlouhé vysedávání zde úplně nemysleli, protože místní židličky nebyli úplně nejlepší.
 
 ![](https://scontent-vie1-1.cdninstagram.com/t51.2885-15/e35/13181429_1738245799765433_420954716_n.jpg)
 
