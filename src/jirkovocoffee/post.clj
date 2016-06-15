@@ -5,7 +5,7 @@
             [clojure.string :as str]
             [jirkovocoffee.parser :as parser]))
 
-(def excluded #{".Ulysses-Group.plist" "images" ".DS_Store"})
+(def excluded #{".Ulysses-Group.plist" ".UlyssesRoot" "images" ".DS_Store"})
 (def posts-directory (io/file "resources/posts/"))
 (def posts-files (filter #(not (or (.isDirectory %)
                                    (contains? excluded (.getName %))))
@@ -52,7 +52,7 @@
          (add-absolute-url (.getName file))
          (published->bool)
          (body->html))
-    (catch Exception e (println e) nil)))
+    (catch Exception e (print e) nil)))
 
 (defn find-all []
   (filter !nil? (map load-post posts-files)))
